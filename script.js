@@ -1027,7 +1027,6 @@ function showCongratsImage() {
     });
 
     document.body.appendChild(congratsImg);
-}
 
 // Temporizador
 let startTime;
