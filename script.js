@@ -868,7 +868,7 @@ const yoKaiList = [
     { name: "Kanaendesu", img: "Kanaendesu.png" },
     { name: "Majin Banbarayar", img: "Majin_Banbarayar.png" },
     { name: "Yodelsen", img: "Yodelsen_B.png" },
-    { name: "Zircondor", img: "Zircondor.png" },
+    { name: "Zircondor", img: "Zircondor.png" }
 ];
 
 let score = 0; 
@@ -1027,6 +1027,7 @@ function showCongratsImage() {
     });
 
     document.body.appendChild(congratsImg);
+}
 
 // Temporizador
 let startTime;
